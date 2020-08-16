@@ -7,7 +7,7 @@
 
 const divide = (x, y) => x / y;
 
-const secondArgumentZero = func => (...args) => {
+const secondArgumentZero = (func) => (...args) => {
   if (args[1] === 0) {
     console.log('Error: dividing by zero');
     return null;

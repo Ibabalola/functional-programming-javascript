@@ -1,7 +1,7 @@
-const double = x => x * 2;
-const subtractOne = x => x - 1;
-const triple = x => x * 3;
-const add5 = x => x + 5;
+const double = (x) => x * 2;
+const subtractOne = (x) => x - 1;
+const triple = (x) => x * 3;
+const add5 = (x) => x + 5;
 
 const functionArray = [
   double,
@@ -11,8 +11,10 @@ const functionArray = [
   Math.sqrt,
 ];
 
-var number = 42;
+let number = 42;
 
-functionArray.forEach(func => number = func(number));
+functionArray.forEach((func) => {
+  number = func(number);
+});
 
 console.log(number);

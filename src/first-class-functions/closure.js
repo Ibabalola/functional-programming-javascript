@@ -17,9 +17,9 @@ giveMeAFunction()();
 // Implement private variable
 
 const Person = ({ name, age, job }) => {
-  var _name = name;
-  var _age = age;
-  var _job = job;
+  let _name = name;
+  let _age = age;
+  let _job = job;
 
   return {
     getName: () => _name,
