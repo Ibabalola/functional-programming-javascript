@@ -40,7 +40,7 @@ const add5 = addPartial(5); // returns a function
 const sum = add5(6, 7); // 18
 
 console.log(sum);
-console.log(`\n`);
+console.log('\n');
 
 // recurision
 const countDown = (x) => {
@@ -51,7 +51,7 @@ const countDown = (x) => {
   }
 };
 
-// countDown(10);
+countDown(10);
 
 // function as objects
 const sayHello = () => console.log('Hello');
