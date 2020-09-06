@@ -1,18 +1,17 @@
-const map = (arr, func) => {
-  const mappedArr = [];
+// const map = (arr, func) => {
+//   const mappedArr = [];
 
-  for (let i = 0; i < arr.length; i++) {
-    mappedArr.push(func(arr[i]));
-  }
+//   for (let i = 0; i < arr.length; i++) {
+//     mappedArr.push(func(arr[i]));
+//   }
 
-  return mappedArr;
-};
+//   return mappedArr;
+// };
 
-const mapWithReduce = (arr, func) => 
-  arr.reduce((acc, element) => {
-    acc.push(func(element));
-    return acc;
-  }, []);
+const mapWithReduce = (arr, func) => arr.reduce((acc, element) => {
+  acc.push(func(element));
+  return acc;
+}, []);
 
 // testing if it works:
 

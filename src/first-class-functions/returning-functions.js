@@ -8,7 +8,7 @@ func();
 // const triple = x => x * 3;
 // const quadruble = x => X * 4;
 
-const createMultiplier = y => x => x * y;
+const createMultiplier = (y) => (x) => x * y;
 
 const double = createMultiplier(2);
 const triple = createMultiplier(3);

@@ -16,5 +16,6 @@ module.exports = {
   ],
   rules: {
     'immutable/no-mutation': 2,
+    'no-console': 'off',
   },
 };

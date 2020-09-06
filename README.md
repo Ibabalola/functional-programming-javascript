@@ -138,3 +138,8 @@ const getPersonData = () => ({
   surname: 'babalola',
 });
 ```
+
+### Reading
+
+*Stucture and Interpretation of Computer Programs* by Harold Abelson and Gerald Jay Sussman with Julie Sussman
+React: Creating and Hosting a Full-Stack Site
