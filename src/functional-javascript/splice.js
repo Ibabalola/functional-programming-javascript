@@ -19,6 +19,6 @@ const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // console.log(numbers.splice(3, 8));
 
-// slice can be used to obtain a shallow copy of an array
+// splice can be used to obtain a shallow copy of an array
 console.log(numbers.splice(2, 3, 'C', 'D', 'E').reverse());
 console.log(numbers);
